@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router,
-  Route, 
+  Route, HashRouter 
   } from 'react-router-dom';
 import './App.css';
 import Homepage from './pages/HomePage';
@@ -17,8 +17,8 @@ function App() {
     <div className="App">
     <Navbar/>
      <div id="page-body">
-     <Route path="/" component={Homepage} exact/>
-     <Route path="/projects" component={ProjectList} exact/>
+     <HashRouter path="/" component={Homepage} exact/>
+     <HashRouter path="/projects" component={ProjectList} exact/>
      <Route path="/contact" component={ContactPage} exact/>
      <Route path="/page/:name" component={ProjectPages} exact/>
      </div>
