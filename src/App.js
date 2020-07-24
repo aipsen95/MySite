@@ -18,9 +18,9 @@ function App() {
     <Navbar/>
      <div id="page-body">
      <Route path="/" component={Homepage} exact/>
-     <Route path="/projects" component={ProjectList} exact/>
-     <Route path="/contact" component={ContactPage} exact/>
-     <Route path="/page/:name" component={ProjectPages} exact/>
+     <Route path="/MySite/projects" component={ProjectList} exact/>
+     <Route path="/MySite/contact" component={ContactPage} exact/>
+     <Route path="/MySite/page/:name" component={ProjectPages} exact/>
      </div>
      <Footer/>
     </div>
