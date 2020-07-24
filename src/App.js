@@ -13,18 +13,18 @@ import Footer from './footer'
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
     <div className="App">
     <Navbar/>
      <div id="page-body">
-     <HashRouter path="/" component={Homepage} exact/>
-     <HashRouter path="/projects" component={ProjectList} exact/>
+     <Route path="/" component={Homepage} exact/>
+     <Route path="/projects" component={ProjectList} exact/>
      <Route path="/contact" component={ContactPage} exact/>
      <Route path="/page/:name" component={ProjectPages} exact/>
      </div>
      <Footer/>
     </div>
-    </Router>
+    </HashRouter>
   );
 }
 
