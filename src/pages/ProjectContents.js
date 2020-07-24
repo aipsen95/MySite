@@ -1,0 +1,48 @@
+const article = [
+    {
+        name: "Portfolio Page",
+        description: "My portfolio site is a project which I build using React.js",
+        content: ["This page is also a project of mine. I this website using Asp.Net webforms. I found css design that I liked an altered to fit my needs.","There is no backend yet.."],
+        headerOne: "Frontend",
+        headerTwo: "Backend",
+        headerThree: "",
+        date: "28/2/2019",
+        images: ["MyLogo.png","MyLogo.png","MyLogo.png"],
+    },
+    {
+        name: "Realism In VR",
+        description: "For a whole year during my master, I experimented with exploring peoples perception of what look real in virtual reality.",
+        content: ["Iam a little bitch","NOPE MOTHER FUCKERS", "THIS IS JUST A TEST"],
+        date: "28/2/2019",
+        headerOne: "Idea",
+        headerTwo: "Implementation",
+        headerThree: "Test & Result",
+        images: ["GameboxReal.jpg","GameboxReal.jpg","GameboxReal.jpg"],
+    },
+    {
+        name: "Astro",
+        description: "A short narrative game with gravity pull mechanics and fun slow motion. You play as a lonely astronaut on a journey to find a black hole to power the earth.",
+        content: ['As­tro is a game pro­to­type de­signed to test my Bach­e­lor The­sis. The fi­nal prob­lem state­ment was: "To what extent does an environment based on circular shapes elicit a more pleasant valence and lower arousal, compared to an environment based on angular shapes in a video game?"',
+        "NOPE MOTHER FUCKERS", 
+        "The study was test was per­formed on 80 in­di­vid­u­als us­ing Self As­s­es­ment Mankin questin­naire (SAM) (B Geethan­jali, K Adalarasu, A Hemapraba, S Pravin Ku­mar, R Ra­jasek­eran, 2017). The re­sults were in­con­clu­sive and fur­ther re­search is needed to ac­count for many fac­tors that afect SAM's out­come eg. peo­ple some­times per­ceive emo­tion sub­con­ciously to a de­gree that they do not re­mem­ber sit­u­a­tions, some­times with a de­lay and that af­fects the cor­rect tim­ing of ask­ing the ques­tion to re­ceive true an­swer. Fur­ther test­ing of SAM method­ol­ogy is needed to ob­tain trust­wor­thy re­sults when eval­u­at­ing emo­tional im­pact of shapes. "],
+        date: "28/2/2019",
+        headerOne: "Idea",
+        headerTwo: "Implementation",
+        headerThree: "Test & Result",
+        images: ["logoReal.png","logoReal.png","logoReal.png"],
+    },
+    {
+        name: "Legend of the Golden Monkey",
+        description: " An Augmented Reality game to teach children math through a game, while exercising. Explore a treasure island through physical space to solve different puzzles to get to the Treasure of the Golden Monkey.",
+        content: ["The main goal was to cre­ate an ap­pli­ca­tion that made around 20 peo­ple at the same pe­riod of time move around a des­ig­nated area and in­ter­act with the mini 3D en­vi­ron­ments re­vealed by scan­ning 'fidu­cial mark­ers' placed ei­ther on the wall or on the ground. There was a main fidu­cial marker that showed progress in the sto­ry­line and 5 mini en­vi­ron­ments each of them dis­trib­uted on 2 or more fidu­cial mark­ers. ",
+        "NOPE MOTHER FUCKERS",
+         "Our eval­u­a­tion has been per­formed on 40 par­tic­pants, from whom each one has filled the ques­tion­naire. The grade our sys­tem re­ceived was based on the mean av­er­age of the re­sults which was 72. The grade our con­cep­utal model re­ceived bee­ing B."],
+        date: "28/2/2019",
+        headerOne: "Idea",
+        headerTwo: "Implementation",
+        headerThree: "Test & Result",
+        images: ["LegendOfGoldenMonkey.png","LegendOfGoldenMonkey.png","LegendOfGoldenMonkey.png"],
+    },
+];
+
+export default article;
